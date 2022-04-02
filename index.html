@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <title>Music App</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="head">
+            <div class="title">
+                <div id="app-name">Music App</div>
+                <div class="title-detail">Designed By <span>MinoIT</span></div>
+            </div>
+            <div id="resize-btn" class="expanded"><ion-icon name="chevron-up-outline"></ion-icon></div>
+        </div>
+        <div class="content">
+            <div class="song-info">
+                <div class="imgBx show"><img id="music-img" src="" alt=""></div>
+                <div id="now-txt">Now Playing...</div>
+                <div style="text-align: center; margin-top: 5px;"><span id="song-name"></span> - <span id="song-auth"></span></div>                                
+            </div>                        
+        </div>
+        <div class="song-controls">
+            <div class="song-progress">
+                <div id="song-current-time">00:00</div>
+                <div id="progress-bar">
+                    <span id="progress-detail"></span>
+                </div>   
+                <div id="song-duration">00:00</div> 
+                <audio id="main-audio" src=""></audio>                
+            </div>
+            <div class="controls">
+                <div><i id="repeat-btn" class="material-icons" title="playlist-loop">repeat</i></div>
+                <div class="common-btn">
+                    <div id="btn-back"><ion-icon name="play-skip-back"></ion-icon></div>
+                    <div id="btn-play"><ion-icon name="play"></ion-icon></div>
+                    <div id="btn-next"><ion-icon name="play-skip-forward"></ion-icon></div>                    
+                </div>
+                <div id="list-song-btn"><ion-icon name="musical-notes"></ion-icon></div>
+            </div>
+        </div>
+        <div id="list-music">
+            <div class="head">
+                <div id="list-title">List Music</div>
+                <div id="btn-close-list"><ion-icon name="close"></ion-icon></div>
+            </div>
+            <ul id="list">                           
+            </ul>
+        </div>
+    </div>
+    <script src="list-music.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
