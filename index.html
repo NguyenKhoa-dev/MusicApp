@@ -17,7 +17,15 @@
                 <div id="app-name">Music App</div>
                 <div class="title-detail">Designed By <span>MinoIT</span></div>
             </div>
-            <div id="resize-btn" class="expanded"><ion-icon name="chevron-up-outline"></ion-icon></div>
+            <div class="d-flex">
+                <div id="volume-btn">
+                    <ion-icon id="volume-icon" name="volume-high"></ion-icon>
+                    <div id="volume-range-container">
+                        <input id="volume-range" type="range" min="0" max="100" value="100" steps="1" name="volume-range">
+                    </div>                    
+                </div>
+                <div id="resize-btn" class="expanded"><ion-icon name="chevron-up-outline"></ion-icon></div>
+            </div>            
         </div>
         <div class="content">
             <div class="song-info">

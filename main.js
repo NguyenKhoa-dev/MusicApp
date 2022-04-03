@@ -10,7 +10,9 @@ const wrapper = document.querySelector("#wrapper"),
   progressDetail = document.querySelector('#progress-detail'),
   nowTxt = document.querySelector('#now-txt'),
   btnResize = document.querySelector('#resize-btn'),
-  imgBox = document.querySelector('.imgBx');
+  imgBox = document.querySelector('.imgBx'),
+  volumeRange = document.querySelector('#volume-range'),
+  volumeIcon = document.querySelector('#volume-icon');
 
 let musicIndex = Math.floor(Math.random() * allMusic.length);
 
@@ -246,3 +248,26 @@ function clicked(element) {
   playMusic();
   playingNow();
 }
+
+//change volume audio when change value of range and set icon according value of volume
+volumeRange.addEventListener('input', () => {
+  let value = volumeRange.value / 100;
+  mainAudio.volume = value;
+  console.log(value);
+  setIconVolume(value);
+});
+
+function setIconVolume(value) {
+  if (value == 0) {
+    volumeIcon.setAttribute('name', 'volume-mute');
+  }
+  if (value <= 0.15 && value > 0) {
+    volumeIcon.setAttribute('name', 'volume-off');
+  }
+  if (value > 0.15 && value <= 0.6) {
+    volumeIcon.setAttribute('name', 'volume-low');
+  }
+  if (value > 0.6) {
+    volumeIcon.setAttribute('name', 'volume-high');
+  }
+} 

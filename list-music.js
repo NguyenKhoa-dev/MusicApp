@@ -36,6 +36,48 @@ const allMusic = [
         src: "Anh-La-Ai-Phuong-Ly"
     },
     {
+        name: "Mặt Trời Của Em",
+        artist: "Phương Ly, JustaTee",
+        img: "MatTroiCuaEm",
+        src: "Mat-Troi-Cua-Em-Phuong-Ly-JustaTee"
+    },
+    {
+        name: "Thằng Điên",
+        artist: "Phương Ly, JustaTee",
+        img: "ThangDien",
+        src: "Thang-Dien-JustaTee-Phuong-Ly"
+    },
+    {
+        name: "Missing You",
+        artist: "Phương Ly, Tinle",
+        img: "MissingYou",
+        src: "Missing You - Phuong Ly_ Tinle"
+    },
+    {
+        name: "Cứ Chill Thôi",
+        artist: "Chillies, Suni Hạ Linh",
+        img: "CuChillThoi",
+        src: "Cu Chill Thoi - Chillies_ Suni Ha Linh_"
+    },
+    {
+        name: "Gác Lại Âu Lo",
+        artist: "DaLAB, Miu Lê",
+        img: "GacLaiAuLo",
+        src: "GacLaiAuLo-DaLABMiuLe"
+    },
+    {
+        name: "Buồn Thì Cứ Khóc Đi",
+        artist: "Lynk Lee",
+        img: "BuonThiCuKhocDi",
+        src: "Buon Thi Cu Khoc Di - Lynk Lee"
+    },
+    {
+        name: "Hồng Nhan",
+        artist: "JACK, G5R",
+        img: "HongNhan",
+        src: "Hong-Nhan-Jack"
+    },
+    {
         name: "Bạc Phận",
         artist: "JACK, KICM",
         img: "BacPhan",
@@ -52,5 +94,23 @@ const allMusic = [
         artist: "OSAD, VRT",
         img: "NguoiAmPhu",
         src: "NguoiAmPhu-MaiQuangNamVRT"
+    },
+    {
+        name: "Người Lạ Ơi",
+        artist: "Karik, Orange, Superbrothers",
+        img: "NguoiLaOi",
+        src: "Nguoi-La-Oi-Karik-Orange-Superbrothers"
+    },
+    {
+        name: "Cảm Giác Lúc Ấy Sẽ Ra Sao",
+        artist: "Lou Hoàng",
+        img: "CamGiacLucAySeRaSao",
+        src: "Cam-Giac-Luc-Ay-Se-Ra-Sao-Lou-Hoang"
+    },
+    {
+        name: "Là Bạn Không Thể Yêu",
+        artist: "Lou Hoàng",
+        img: "LaBanKhongTheYeu",
+        src: "La-Ban-Khong-The-Yeu-Lou-Hoang"
     },
 ]
