@@ -24,6 +24,12 @@ const allMusic = [
         src: "Ignite-EirAoi"
     },
     {
+        name: "To The Future",
+        artist: "Tomori Kusunoki",
+        img: "ToTheFuture",
+        src: "ToSeeTheFuture-TomoriKusunoki-5471168"
+    },
+    {
         name: "Khác Biệt To Lớn",
         artist: "Trịnh Thăng Bình, Liz",
         img: "KhacBietToLon",
@@ -113,4 +119,16 @@ const allMusic = [
         img: "LaBanKhongTheYeu",
         src: "La-Ban-Khong-The-Yeu-Lou-Hoang"
     },
+    {
+        name: "Anh Đánh Rơi Người Yêu Này",
+        artist: "Andiez, AMee",
+        img: "AnhDanhRoiNguoiYeuNay",
+        src: "AnhDanhRoiNguoiYeuNay-AndiezAMee"
+    },
+    {
+        name: "Đâu Cần Một Bài Ca Tình Yêu",
+        artist: "Tiên Tiên, Trang",
+        img: "DauCanMotBaiCaTinhYeu",
+        src: "DauCanMotBaiCaTinhYeu-TienTienTrang"
+    },    
 ]
