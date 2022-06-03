@@ -17,6 +17,7 @@ const wrapper = document.querySelector("#wrapper"),
 let musicIndex = Math.floor(Math.random() * allMusic.length);
 
 window.addEventListener("load", () => {
+  getVolumeLocal();
   loadMusic(musicIndex);
   playingNow();
 });
@@ -251,9 +252,9 @@ function clicked(element) {
 
 //change volume audio when change value of range and set icon according value of volume
 volumeRange.addEventListener('input', () => {
-  let value = volumeRange.value / 100;
+  let value = volumeRange.value / 100;  
   mainAudio.volume = value;
-  console.log(value);
+  localStorage.setItem("currentVol", value);
   setIconVolume(value);
 });
 
@@ -271,3 +272,11 @@ function setIconVolume(value) {
     volumeIcon.setAttribute('name', 'volume-high');
   }
 } 
+
+function getVolumeLocal() {
+  let volumeValue = localStorage.getItem('currentVol') || 1;
+  mainAudio.volume = volumeValue;
+  volumeRange.value = volumeValue * 100;
+  setIconVolume(volumeValue)
+  console.log(volumeValue);
+}

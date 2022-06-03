@@ -12,6 +12,12 @@ const allMusic = [
         src: "Ampyx - Holo [Argofox]"
     },
     {
+        name: "Chitty Chitty Bang Bang",
+        artist: "QUEENDOM",
+        img: "YaBoyKongming",
+        src: "ChittyChittyBangBang-QUEENDOM"
+    },
+    {
         name: "Resister",
         artist: "ASCA",
         img: "Resister",
@@ -130,5 +136,11 @@ const allMusic = [
         artist: "Tiên Tiên, Trang",
         img: "DauCanMotBaiCaTinhYeu",
         src: "DauCanMotBaiCaTinhYeu-TienTienTrang"
-    },    
+    },   
+    {
+        name: "Anh Đang Nơi Đâu",
+        artist: "Miu Lê",
+        img: "AnhDangNoiDau",
+        src: "Anh-Dang-Noi-Dau-Miu-Le"
+    },  
 ]
