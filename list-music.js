@@ -36,6 +36,12 @@ const allMusic = [
         src: "ToSeeTheFuture-TomoriKusunoki-5471168"
     },
     {
+        name: "Kyuukyoku Unbalance!",
+        artist: "Junjou No Afilia",
+        img: "KyuukyokuUnbalance",
+        src: "Kyuukyoku Unbalance! - Junjou No Afilia"
+    },
+    {
         name: "Khác Biệt To Lớn",
         artist: "Trịnh Thăng Bình, Liz",
         img: "KhacBietToLon",
