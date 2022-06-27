@@ -42,10 +42,22 @@ const allMusic = [
         src: "Kyuukyoku Unbalance! - Junjou No Afilia"
     },
     {
+        name: "Itsuka No Kioku",
+        artist: "Azumi Waki",
+        img: "Bear",
+        src: "ItsukaNoKioku"
+    },
+    {
         name: "Khác Biệt To Lớn",
         artist: "Trịnh Thăng Bình, Liz",
         img: "KhacBietToLon",
         src: "Khác Biệt To Lớn - Trịnh Thăng Bình, Liz"
+    },
+    {
+        name: "Khác Biệt To Lớn Hơn",
+        artist: "Trịnh Thăng Bình, Liz",
+        img: "KhacBietToLonHon",
+        src: "Khac Biet To Lon Hon - Trinh Thang Binh_Liz"
     },
     {
         name: "Anh Là Ai",
@@ -142,11 +154,11 @@ const allMusic = [
         artist: "Tiên Tiên, Trang",
         img: "DauCanMotBaiCaTinhYeu",
         src: "DauCanMotBaiCaTinhYeu-TienTienTrang"
-    },   
+    },
     {
         name: "Anh Đang Nơi Đâu",
         artist: "Miu Lê",
         img: "AnhDangNoiDau",
         src: "Anh-Dang-Noi-Dau-Miu-Le"
-    },  
+    },
 ]
