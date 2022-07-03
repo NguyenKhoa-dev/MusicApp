@@ -48,6 +48,12 @@ const allMusic = [
         src: "ItsukaNoKioku"
     },
     {
+        name: "Hana no Tou",
+        artist: "Sayuri",
+        img: "HanaNoTou",
+        src: "Hana no Tou_Sayuri"
+    },
+    {
         name: "Khác Biệt To Lớn",
         artist: "Trịnh Thăng Bình, Liz",
         img: "KhacBietToLon",
