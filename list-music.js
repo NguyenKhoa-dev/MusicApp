@@ -48,6 +48,12 @@ const allMusic = [
         src: "ItsukaNoKioku"
     },
     {
+        name: "ALIVE",
+        artist: "ClariS",
+        img: "ALIVE",
+        src: "ALIVE"
+    },
+    {
         name: "Hana no Tou",
         artist: "Sayuri",
         img: "HanaNoTou",
