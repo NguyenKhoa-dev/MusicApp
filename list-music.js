@@ -60,6 +60,18 @@ const allMusic = [
         src: "Hana no Tou_Sayuri"
     },
     {
+        name: "Wherever",
+        artist: "Minori Suzuki",
+        img: "Wherever",
+        src: "Wherever"
+    },
+    {
+        name: "Hand Up To The Sky",
+        artist: "SawanoHiroyuki[nZk]:Laco",
+        img: "HandUpToTheSky",
+        src: "HandsUpToTheSky-HiroyukiSawanoLaco"
+    },
+    {
         name: "Khác Biệt To Lớn",
         artist: "Trịnh Thăng Bình, Liz",
         img: "KhacBietToLon",
