@@ -12,6 +12,42 @@ const allMusic = [
         src: "Ampyx - Holo [Argofox]"
     },
     {
+        name: "Only My Railgun",
+        artist: "Fripside",
+        img: "RailGun/railgun1",
+        src: "RailGun/OnlyMyRailgun-Fripside"
+    },
+    {
+        name: "Level 5 Judgelight",
+        artist: "Fripside",
+        img: "RailGun/railgun2",
+        src: "RailGun/Level5Judgelight-Fripside"
+    },
+    {
+        name: "Sisters Noise",
+        artist: "Fripside",
+        img: "RailGun/railguns1",
+        src: "RailGun/SistersNoise-Fripside"
+    },
+    {
+        name: "Eternal Reality",
+        artist: "Fripside",
+        img: "RailGun/railguns2",
+        src: "RailGun/EternalReality-Fripside"
+    },
+    {
+        name: "Final Phase",
+        artist: "Fripside",
+        img: "RailGun/railgunt1",
+        src: "RailGun/FinalPhase-Fripside"
+    },
+    {
+        name: "Dual Existence",
+        artist: "Fripside",
+        img: "RailGun/railgunt2",
+        src: "RailGun/DualExistence-Fripside"
+    },
+    {
         name: "Chitty Chitty Bang Bang",
         artist: "QUEENDOM",
         img: "YaBoyKongming",
